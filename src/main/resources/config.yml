@@ -1,0 +1,26 @@
+# GamelifeHealthBar - standalone overhead healthbars
+mob-bars:
+  enabled: true
+  mobs: true
+  players: true
+  show-seconds: 3
+  max-distance: 32
+  look: true
+  blacklist:
+    - ARMOR_STAND
+
+resource-pack:
+  # none: only generate the pack; url: distribute an externally hosted pack; host: built-in HTTP server
+  delivery: host
+  url: ""
+  host:
+    bind: "0.0.0.0"
+    port: 12001
+    path: "/gamelifehealthbar.zip"
+    public-url: "http://185.207.166.56:12001/gamelifehealthbar.zip"
+  send-on-join: true
+  required: false
+  prompt: ""
+  kick-message: ""
+  extra-packs: []
+  position: last

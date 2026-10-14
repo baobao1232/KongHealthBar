@@ -1,0 +1,16 @@
+name: GamelifeHealthBar
+version: '${project.version}'
+main: com.gamelife.healthbar.GamelifeHealthBarPlugin
+api-version: '1.21'
+author: Gamelife Studio
+description: Standalone healthbars above mobs and players.
+folia-supported: true
+commands:
+  gamelifehealthbar:
+    description: Manage GamelifeHealthBar
+    aliases: [ghb]
+    usage: /ghb reload
+    permission: gamelifehealthbar.admin
+permissions:
+  gamelifehealthbar.admin:
+    default: op
