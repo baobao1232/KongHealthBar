@@ -5,6 +5,8 @@ api-version: '1.21'
 author: Gamelife Studio
 description: Standalone healthbars above mobs and players.
 folia-supported: true
+softdepend:
+  - MythicMobs
 commands:
   gamelifehealthbar:
     description: Manage GamelifeHealthBar

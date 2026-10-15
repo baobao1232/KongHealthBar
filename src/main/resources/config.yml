@@ -5,9 +5,30 @@ mob-bars:
   players: true
   show-seconds: 3
   max-distance: 32
+  default-height-offset: 0.35
+  default-scale: 1.0
   look: true
+
+  mythicmobs:
+    settings:
+      AncientDragon:
+        height: 4.5
+        scale: 1.5
+
+      GiantBoss:
+        height: 3.0
+        scale: 1.8
+
+      SkeletonKing:
+        height: 2.0
+        scale: 1.2
+
   blacklist:
     - ARMOR_STAND
+
+bar:
+  frames: 10     # số frame trong ảnh (chia đều theo chiều ngang)
+  ascent: 4      # độ cao thanh máu so với đường chữ, phải <= chiều cao ảnh
 
 resource-pack:
   # none: only generate the pack; url: distribute an externally hosted pack; host: built-in HTTP server
